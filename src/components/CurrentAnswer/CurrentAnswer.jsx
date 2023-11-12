@@ -1,6 +1,7 @@
+import { useQuizStore } from "../../stores/useQuizStore"
 
-export const CurrentAnswer = ({onClose}) => {
-  console.log(onClose)
+export const CurrentAnswer = ({onClose, answerText, answerType}) => {
+  
   return (
     <>
       <div id="modal" className="modal">
@@ -8,7 +9,8 @@ export const CurrentAnswer = ({onClose}) => {
           <span className="close" onClick={onClose}>
             &times;
           </span>
-          Answers
+          <h1>{answerType}</h1>
+          {answerText}
         </div>
       </div>
     </>

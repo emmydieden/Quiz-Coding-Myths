@@ -5,65 +5,79 @@ export const questions = [
   {
     id: 1,
     questionText:
-      "Coding requires advanced math skills to be successful.",
+      "You Need To Be A Genius To Code.",
     options: [
       "Truth", "Myth"
     ],
     correctAnswerIndex: 1,
+    answerType: "Myth", 
+    answerText: "Anyone with the desire and willingness to work hard can learn to code. It's more about dedication, creativity, and problem-solving."
   },
   {
     id: 2,
     questionText:
-      "You can become a proficient coder in just a few days.",
+      "Coding Is Boring.",
     options: [
       "Truth", "Myth"
     ],
     correctAnswerIndex: 1,
+    answerType: "Myth", 
+    answerText: "Coding is about creativity and building useful things. It can be applied to various industries, making it far from boring."
   },
   {
     id: 3,
     questionText:
-      "Coding is a solitary activity, and you don't need to collaborate with others.",
-    options: [
-      "Truth", "Myth"
-    ],
-    correctAnswerIndex: 1,
-  },
-  {
-    id: 4,
-    questionText:
-      "Learning to code is a linear process, and you must follow a strict sequence of topics.",
-    options: [
-      "Truth", "Myth"
-    ],
-    correctAnswerIndex: 1,
-  },
-  {
-    id: 5,
-    questionText:
-      "You need a powerful and expensive computer to start coding.",
-    options: [
-      "Truth", "Myth"
-    ],
-    correctAnswerIndex: 1,
-  },
-  {
-    id: 6,
-    questionText:
-      "Learning to code can enhance problem-solving and critical thinking skills.",
+      "It's never too Late To Learn To Code.",
     options: [
       "Truth", "Myth"
     ],
     correctAnswerIndex: 0,
+    answerType: "Truth", 
+    answerText: "It’s never too late to learn to code, as the demand for coding skills continues to rise. There are resources and bootcamps available for people of all ages."
   },
   {
-    id: 7,
+    id: 4,
     questionText:
-      "There is only one 'best' programming language to learn.",
+      "You Need To Be Good At Math.",
     options: [
       "Truth", "Myth"
     ],
     correctAnswerIndex: 1,
+    answerType: "Myth", 
+    answerText: "While math is important in some areas of coding, you don't need to be a math expert for most coding tasks. Basic algebra is usually sufficient."
+  },
+  {
+    id: 5,
+    questionText:
+      "Once You Master A Language, You’re Done Learning.",
+    options: [
+      "Truth", "Myth"
+    ],
+    correctAnswerIndex: 1,
+    answerType: "Myth", 
+    answerText: "Coding is continuously evolving, and you must keep learning and adapting to stay current with best practices."
+  },
+  {
+    id: 6,
+    questionText:
+      "One Language Is Better Than The Rest.",
+    options: [
+      "Truth", "Myth"
+    ],
+    correctAnswerIndex: 1,
+    answerType: "Myth", 
+    answerText: "Each programming language has its purpose and strengths. The choice of language depends on the specific task and personal preference."
+  },
+  {
+    id: 7,
+    questionText:
+      "I don’t have To Go To A University To Learn Code.",
+    options: [
+      "Truth", "Myth"
+    ],
+    correctAnswerIndex: 0,
+    answerType: "Truth", 
+    answerText: " While university degrees can be valuable, there are many online resources, interactive learning platforms, and coding bootcamps that can help you learn coding efficiently and effectively."
   },
   
 ];

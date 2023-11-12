@@ -9,6 +9,7 @@ export const CurrentOptions = ({ question, currentQuestionIndex }) => {
   const [showCurrentAnswer, setShowCurrentAnswer] = useState(false);
   // Get the available options.
   const options = question.options;
+  
   // Destructure values from useQuizStore.
   const { answers, submitAnswer } = useQuizStore();
   // Retrieve the selected answer for the current question.
@@ -58,7 +59,7 @@ export const CurrentOptions = ({ question, currentQuestionIndex }) => {
     <div className="options-container">
     
       {showCurrentAnswer && (
-        <CurrentAnswer onClose={handleModalClose}/>
+        <CurrentAnswer answerText={question.answerText} answerType={question.answerType} onClose={handleModalClose}/>
       )}
 
       {options.map((option, index) => (
