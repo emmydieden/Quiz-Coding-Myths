@@ -1,4 +1,5 @@
 import { useQuizStore } from "../../stores/useQuizStore"
+import "./currentQuestion.css"
 
 export const CurrentQuestion = () => {
     const questions = useQuizStore((state) => state.questions);

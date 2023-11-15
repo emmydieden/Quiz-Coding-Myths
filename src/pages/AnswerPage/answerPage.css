@@ -1,5 +1,7 @@
 .modal {
-    display: hidden; /*Hidden by default  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
@@ -12,15 +14,22 @@
 }
 
 .modal-content {
-    background-color: royalblue;
+  background: radial-gradient(
+    farthest-corner at 40px 40px,
+    #4155c3 30%,
+    #293680 70%
+  );
+    color: white; 
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 90%; /* Could be more or less, depending on screen size */
+    height: 40%; 
   }
 
   .close {
-    color: #aaa;
+    color: white;
     float: right;
     font-size: 28px;
     font-weight: bold;

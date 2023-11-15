@@ -1,7 +1,7 @@
 import { CurrentQuestion } from "../CurrentQuestion/CurrentQuestion";
 import { CurrentOptions } from "../CurrentOptions/CurrentOption";
 import { useQuizStore } from "../../stores/useQuizStore";
-
+import "./questionCard.css"
 
 // Component that holds the current question and the current options
 export const QuestionsCard = () => {

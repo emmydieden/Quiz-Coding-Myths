@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./buttonLink.css"
 
 
 // Component for the button-element, utilizes the Link-component from react-router-dom

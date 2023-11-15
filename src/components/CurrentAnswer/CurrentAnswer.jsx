@@ -1,6 +1,9 @@
 import { useQuizStore } from "../../stores/useQuizStore"
 
-export const CurrentAnswer = ({onClose, answerText, answerType}) => {
+import "./currentAnswer.css"
+
+export const CurrentAnswer = ({onClose, answerText, answerType, isAnswerCorrect}) => {
+  console.log(isAnswerCorrect)
   
   return (
     <>
@@ -9,7 +12,7 @@ export const CurrentAnswer = ({onClose, answerText, answerType}) => {
           <span className="close" onClick={onClose}>
             &times;
           </span>
-          <h1>{answerType}</h1>
+          <h2>{isAnswerCorrect? `Correct, it's ${answerType}!` : `Incorrect, it's ${answerType}!`}</h2>
           {answerText}
         </div>
       </div>
