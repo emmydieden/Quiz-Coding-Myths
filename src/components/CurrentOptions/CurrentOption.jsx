@@ -2,11 +2,11 @@ import { useState } from "react";
 import { useQuizStore } from "../../stores/useQuizStore";
 import { ImCross } from "react-icons/im";
 import { ImCheckmark } from "react-icons/im";
+import { GoCheckCircle } from "react-icons/go";
 import { CurrentAnswer } from "../CurrentAnswer/CurrentAnswer";
 import { NextQuestion } from "../NextQuestion/NextQuestion";
 import "./currentOptions.css";
 
-import "./currentOptions.css";
 
 export const CurrentOptions = ({ question, currentQuestionIndex }) => {
   const { showAnswer, setShowAnswer, showNextButton, setShowNextButton } =
@@ -15,6 +15,7 @@ export const CurrentOptions = ({ question, currentQuestionIndex }) => {
       setShowAnswer: state.setShowAnswer, //DELETE LATER?
       showNextButton: state.showNextButton,
       setShowNextButton: state.setShowNextButton,
+    
     }));
 
   // const [showCurrentAnswer, setShowCurrentAnswer] = useState(false); //OLD STATE
@@ -41,7 +42,7 @@ export const CurrentOptions = ({ question, currentQuestionIndex }) => {
 
     setTimeout(() => {
       setShowAnswer(true);
-    }, 500);
+    }, 0);
 
     // Submit the selected answer to the store.
     submitAnswer(question.id, index);
@@ -92,18 +93,19 @@ export const CurrentOptions = ({ question, currentQuestionIndex }) => {
               <ImCheckmark />
             )}
             {/* If the answer is incorrect, display a X. */}
-            {!isAnswerCorrect && selectedAnswerIndex === index && <ImCross />}
+            {!isAnswerCorrect && selectedAnswerIndex === index && <ImCross className="cross-item"/>}
+           
           </button>
         ))}
       </div>
-      {showAnswer && (
+      {/* {showAnswer && (
         <CurrentAnswer
           isAnswerCorrect={isAnswerCorrect}
           answerText={question.answerText}
           answerType={question.answerType}
           onClose={handleModalClose}
         />
-      )}
+      )} */}
     </div>
   );
 };

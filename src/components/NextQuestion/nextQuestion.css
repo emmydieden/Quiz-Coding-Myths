@@ -1,5 +1,21 @@
 .next-summary-btn {
     display: flex; 
-    justify-content: flex-end;
+    justify-content: space-around;
 
+}
+
+.next-btn {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient( 0.25turn, #f9b4b4, #f1d072 ); 
+    border: none; 
+    color: white; 
+    font-weight: 600;
+    width: 80px; 
+ 
+}
+
+.next-arrow {
+    height: 30px; 
+    width: 30px; 
 }

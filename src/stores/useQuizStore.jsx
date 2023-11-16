@@ -83,28 +83,14 @@ export const questions = [
 ];
 
 export const responses = [
-  { score: 0, text: "Boo-hoo! You suck at this spooky quiz🪦" },
-  { score: 1, text: "Boo-hoo! Time to haunt the Halloween library 👻📚" },
-  { score: 2, text: "Boo-hoo! Time to haunt the Halloween library 👻📚" },
-  {
-    score: 3, text: "Boo! You can do better with some more Halloween knowledge 👻📚",
-  },
-  {
-    score: 4,
-    text: "You're getting there, but the spirits are not impressed 👻",
-  },
-  {
-    score: 5,
-    text: "You might need a witch's brew to improve your score! 🧪🧙‍♀️",
-  },
-  {
-    score: 6,
-    text: "Your Halloween knowledge is in the cauldron, brewing and improving! 🎃📚⚗️",
-  },
-  { score: 7, text: "You've got a graveyard of knowledge on Halloween! 🦴🩻🪦" },
-  { score: 8, text: "Impressive! You're a Halloween aficionado 🧛🦇" },
-  { score: 9, text: "You're so spooky-smart, it's scary! 🤓👻" },
-  { score: 10, text: "You're a Halloween wizard! 🫶🎃✨" },
+  { score: 0, text: "You've encountered some coding myths. Time to debunk them with more learning! Learn more about coding myths by reading these articles." },
+  { score: 1, text: "You're on the right track, but there's more to discover in the world of coding! Explore further by reading articles on coding myths." },
+  { score: 2, text: "Not bad! You've got a good grasp of coding myths, but there's always more to explore. Enhance your knowledge by reading articles on coding myths." },
+  { score: 3, text: "Great job! You've successfully navigated through coding myths. Keep expanding your knowledge! Consider reading more articles on coding myths for deeper insights." },
+  { score: 4, text: "Impressive! You're well-informed about coding myths. Keep up the good work! Dive deeper into the subject by reading additional articles on coding myths." },
+  { score: 5, text: "Fantastic! You've mastered the knowledge about coding myths. Keep challenging yourself! Stay updated by reading the latest articles on coding myths." },
+  { score: 6, text: "Exceptional! Your understanding of coding myths is commendable. Keep advancing in your coding journey! Explore advanced topics by reading insightful articles on coding myths." },
+  { score: 7, text: "Bravo! You're a coding myth buster. Your knowledge is outstanding! Share your expertise and continue learning by reading more articles on coding myths." },
 ];
 
 // This is the main state store for the quiz. It contains the variable "questions", an array empty for the answers, a default index of 0 for the "currentQuestionIndex" and a default state of false for the variable "quizOver"
@@ -121,6 +107,7 @@ export const useQuizStore = create((set) => ({
   currentQuestionIndex: 0,
   score: 0, // Adds score to the store
   quizOver: false,
+
 
   // q = question - This function takes a question id and an answer index, validates them, and then updates the answers array with the user's answer.
   submitAnswer: (questionId, answerIndex) => {

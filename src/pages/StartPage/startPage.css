@@ -1,0 +1,12 @@
+.start-game-wrapper {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.start-btn {
+    background: linear-gradient( 0.25turn, #f9b4b4, #f1d072 ); 
+}
+
+.slogan {
+    color: gray; 
+}

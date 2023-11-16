@@ -1,5 +1,6 @@
 import { useQuizStore } from "../../stores/useQuizStore"
 import { ButtonLink } from "../ButtonLink/ButtonLink"
+import { MdOutlineNavigateNext } from "react-icons/md"
 
 import "./nextQuestion.css"
 

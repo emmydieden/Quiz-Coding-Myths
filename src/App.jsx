@@ -5,7 +5,7 @@ export const App = () => {
   return (
     <>
       <BrowserRouter>
-        <main>
+        <main className="">
           <Routes>{routes}</Routes>
         </main>
       </BrowserRouter>

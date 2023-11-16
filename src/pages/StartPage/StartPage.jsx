@@ -1,14 +1,16 @@
 
 import {ButtonLink} from "../../components/ButtonLink/ButtonLink"
+import "./startPage.css"
 
 // Pagecomponent that displays the startpage
 export const StartPage = () => {
   return (
-    <div className="start-game-wrapper">
+    <div className="main-wrapper start-game-wrapper">
       <div className="title">
-        <img style={{ height: '200px' }}src="coding.jpeg" alt="Coding image" />
+        
       </div>
-      <h2 className="slogan">Embark on code, let your knowledge flow, hit 'Start Quiz,' let the coding wisdom grow!</h2>
+      <h3 className="slogan">Ready to debunk coding myths? </h3>
+      <h4 className="slogan">Press 'Start' to begin the quiz!</h4>
       {/* Button to start the quiz */}
       <ButtonLink
         path="/question"

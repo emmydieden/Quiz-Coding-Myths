@@ -12,8 +12,10 @@ export const CurrentAnswer = ({onClose, answerText, answerType, isAnswerCorrect}
           <span className="close" onClick={onClose}>
             &times;
           </span>
-          <h2>{isAnswerCorrect? `Correct, it's ${answerType}!` : `Incorrect, it's ${answerType}!`}</h2>
+          <div className="modal-text">
+          <h2>{isAnswerCorrect? `Correct, this is ${answerType}!` : `No, this is ${answerType}!`}</h2>
           {answerText}
+          </div>
         </div>
       </div>
     </>

@@ -1,3 +1,13 @@
 .btn-layout {
-    background-color: red;
+    background-color: none;
+    margin-top: 0.5rem; 
+}
+
+.btn-gradient {
+    background: linear-gradient( 0.25turn, #f9b4b4, #f1d072 ); 
+    border: none; 
+    color: white; 
+    font-weight: 600;
+    display: flex; 
+    justify-content: center;
 }
