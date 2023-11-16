@@ -13,7 +13,7 @@ export const CurrentAnswer = ({onClose, answerText, answerType, isAnswerCorrect}
             &times;
           </span>
           <div className="modal-text">
-          <h2>{isAnswerCorrect? `Correct, this is ${answerType}!` : `No, this is ${answerType}!`}</h2>
+          <h3>{isAnswerCorrect? `Correct, this is ${answerType}!` : `No, this is ${answerType}!`}</h3>
           {answerText}
           </div>
         </div>

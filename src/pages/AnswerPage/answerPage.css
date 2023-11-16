@@ -23,7 +23,7 @@
   width: 320px; 
   height: 250px; 
   border-radius: 10px;
-  animation: fadeIn 2s; 
+  animation: fadeIn 1s; 
   position: absolute;
     top: 40%;
     left: 50%;

@@ -86,7 +86,7 @@ export const CurrentOptions = ({ question, currentQuestionIndex }) => {
                 : ""
             }
           >
-            {option}
+            <div className="option-text">{option}</div>
             {/* Use conditional rendering to display icons based on the answer correctness */}
             {/* If the answer is correct, display a checkmark. */}
             {isAnswerCorrect && selectedAnswerIndex === index && (

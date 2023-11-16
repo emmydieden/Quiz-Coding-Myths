@@ -35,7 +35,7 @@ body {
 button {
   display: flex; 
   justify-content: space-between;
-  width: 120px; 
+  width: 150px; 
   border-radius: 20px;
   border: 1px solid gray;
   color: gray;  

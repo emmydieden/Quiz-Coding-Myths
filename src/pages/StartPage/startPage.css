@@ -1,6 +1,12 @@
 .start-game-wrapper {
-    background-color: white;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
+    width: 19rem; 
+    padding: 1rem; 
 }
 
 .start-btn {
@@ -8,5 +14,7 @@
 }
 
 .slogan {
-    color: gray; 
+    /* color: #3A3B3C;  */
+    color: rgb(109, 108, 108);
+    text-align: center;
 }

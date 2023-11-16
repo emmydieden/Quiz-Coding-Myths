@@ -5,9 +5,9 @@ export const questions = [
   {
     id: 1,
     questionText:
-      "You Need To Be A Genius To Code",
+      '"You need to be a genius to code"',
     options: [
-      "Truth", "Myth"
+      "True", "Myth"
     ],
     correctAnswerIndex: 1,
     answerType: "a myth", 
@@ -16,9 +16,9 @@ export const questions = [
   {
     id: 2,
     questionText:
-      "Coding Is Boring",
+      '"Coding is boring"',
     options: [
-      "Truth", "Myth"
+      "True", "Myth"
     ],
     correctAnswerIndex: 1,
     answerType: "a myth", 
@@ -27,9 +27,9 @@ export const questions = [
   {
     id: 3,
     questionText:
-      "It's never too Late To Learn To Code",
+      '"It is never too late to learn to code"',
     options: [
-      "Truth", "Myth"
+      "True", "Myth"
     ],
     correctAnswerIndex: 0,
     answerType: "true", 
@@ -38,9 +38,9 @@ export const questions = [
   {
     id: 4,
     questionText:
-      "You Need To Be Good At Math",
+      '"You need to be good at math"',
     options: [
-      "Truth", "Myth"
+      "True", "Myth"
     ],
     correctAnswerIndex: 1,
     answerType: "a myth", 
@@ -49,9 +49,9 @@ export const questions = [
   {
     id: 5,
     questionText:
-      "Once You Master A Language, You’re Done Learning",
+      '"Once you master a language, you are done learning"',
     options: [
-      "Truth", "Myth"
+      "True", "Myth"
     ],
     correctAnswerIndex: 1,
     answerType: "true", 
@@ -60,9 +60,9 @@ export const questions = [
   {
     id: 6,
     questionText:
-      "One Language Is Better Than The Rest",
+      '"One language is better than the rest"',
     options: [
-      "Truth", "Myth"
+      "True", "Myth"
     ],
     correctAnswerIndex: 1,
     answerType: "a myth", 
@@ -71,9 +71,9 @@ export const questions = [
   {
     id: 7,
     questionText:
-      "I don’t have To Go To A University To Learn Code",
+      '"I do not have to go to a university to learn code"',
     options: [
-      "Truth", "Myth"
+      "True", "Myth"
     ],
     correctAnswerIndex: 0,
     answerType: "true", 

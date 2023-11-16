@@ -2,6 +2,7 @@ import { useQuizStore } from "../../stores/useQuizStore";
 import { QuestionsCard } from "../../components/QuestionsCard/QuestionsCard";
 import { NextQuestion } from "../../components/NextQuestion/NextQuestion";
 import { CurrentAnswer } from "../../components/CurrentAnswer/CurrentAnswer";
+import { ProgressBar } from "../../components/ProgressBar/ProgressBar";
 import "./questionPage.css"
 
 export const QuestionPage = () => {
@@ -39,7 +40,9 @@ export const QuestionPage = () => {
           onClose={handleModalClose}
         />}
     <section className="main-wrapper">
+    <ProgressBar/>
     <section className="questions-wrapper">
+     
       <QuestionsCard />
       
     </section>

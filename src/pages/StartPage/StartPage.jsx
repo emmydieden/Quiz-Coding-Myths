@@ -9,12 +9,12 @@ export const StartPage = () => {
       <div className="title">
         
       </div>
-      <h3 className="slogan">Ready to debunk coding myths? </h3>
-      <h4 className="slogan">Press 'Start' to begin the quiz!</h4>
+      <h2 className="slogan">Ready to debunk coding myths? </h2>
+      {/* <p className="slogan">Press 'Start' to begin the quiz!</p> */}
       {/* Button to start the quiz */}
       <ButtonLink
         path="/question"
-        label="Start quiz!"
+        label="Start the quiz!"
         ariaLabel="Click to start the quiz"
       />
     </div>
