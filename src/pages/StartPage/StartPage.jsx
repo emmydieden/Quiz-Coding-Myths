@@ -16,6 +16,7 @@ export const StartPage = () => {
         path="/question"
         label="Start the quiz!"
         ariaLabel="Click to start the quiz"
+        className="btn-gradient"
       />
     </div>
   );

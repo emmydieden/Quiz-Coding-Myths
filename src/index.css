@@ -1,7 +1,7 @@
 :root {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 16px; 
+  font-size: 18px; 
   font-family: "Montserrat", sans-serif;
   
 }
@@ -19,13 +19,7 @@ body {
   background-image: url(public/katie-harp-ISro7Y41HIk-unsplash.jpg); 
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  
-  /* background: radial-gradient(
-    farthest-corner at 40px 40px,
-    #4155c3 30%,
-    #293680 70%
-  ); */
+  background-position: 90%; 
   min-height: 100vh;
   position: relative;
   overflow: hidden;

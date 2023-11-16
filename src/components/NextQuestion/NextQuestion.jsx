@@ -52,8 +52,9 @@ export const NextQuestion = () => {
     <div className="next-summary-btn">
        {isLastQuestion ? <ButtonLink
         path="/summary"
-        label="Finish"
+        label="Get score!"
         ariaLabel="Click to start the quiz"
+        className="finish-btn"
       />  :  <button
       className="next-btn btn-layout"
       onClick={handleNextQuestionClick}

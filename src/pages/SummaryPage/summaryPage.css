@@ -29,3 +29,23 @@
 .response-paragraph {
   margin: 0 15px 0 15px; 
 }
+
+.restart-btn {
+    background: linear-gradient( 0.25turn, #f9b4b4, #f1d072 ); 
+    border: none; 
+    color: white; 
+    font-weight: 600;
+    display: flex; 
+    justify-content: center;
+    width: 150px;
+}
+
+.article-btn {
+    background: linear-gradient( 0.25turn, #f9b4b4, #f1d072 ); 
+    border: none; 
+    color: white; 
+    font-weight: 600;
+    display: flex; 
+    justify-content: center;
+    width: 150px;
+}

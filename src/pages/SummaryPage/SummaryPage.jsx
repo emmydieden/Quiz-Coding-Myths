@@ -17,11 +17,18 @@ export const SummaryPage = () => {
       </div>
 <div className="response-text">
       <p className="response-paragraph">{response.text}</p>
+      <ButtonLink 
+        path="https://codeinstitute.net/se/blog/7-myths-about-coding/"
+        ariaLabel="Redirect to blog post"
+        label="Read article"
+        className="article-btn"
+        />
       <ButtonLink
         path="/" // or use 'to' for routing, e.g., "/question-page"
         onClick={restartQuiz}
         ariaLabel="Restart the Quiz"
-        label="Restart"
+        label="Restart quiz"
+        className="restart-btn"
       />
       </div>
     </div>

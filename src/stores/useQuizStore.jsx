@@ -54,7 +54,7 @@ export const questions = [
       "True", "Myth"
     ],
     correctAnswerIndex: 1,
-    answerType: "true", 
+    answerType: "a myth", 
     answerText: "Coding is continuously evolving, and you must keep learning and adapting to stay current with best practices."
   },
   {
@@ -83,14 +83,14 @@ export const questions = [
 ];
 
 export const responses = [
-  { score: 0, text: "You've encountered some coding myths. Time to debunk them with more learning! Learn more about coding myths by reading these articles." },
-  { score: 1, text: "You're on the right track, but there's more to discover in the world of coding! Explore further by reading articles on coding myths." },
-  { score: 2, text: "Not bad! You've got a good grasp of coding myths, but there's always more to explore. Enhance your knowledge by reading articles on coding myths." },
-  { score: 3, text: "Great job! You've successfully navigated through coding myths. Keep expanding your knowledge! Consider reading more articles on coding myths for deeper insights." },
-  { score: 4, text: "Impressive! You're well-informed about coding myths. Keep up the good work! Dive deeper into the subject by reading additional articles on coding myths." },
-  { score: 5, text: "Fantastic! You've mastered the knowledge about coding myths. Keep challenging yourself! Stay updated by reading the latest articles on coding myths." },
-  { score: 6, text: "Exceptional! Your understanding of coding myths is commendable. Keep advancing in your coding journey! Explore advanced topics by reading insightful articles on coding myths." },
-  { score: 7, text: "Bravo! You're a coding myth buster. Your knowledge is outstanding! Share your expertise and continue learning by reading more articles on coding myths." },
+  { score: 0, text: "You've encountered some coding myths. Time to debunk them with more knowledge! Continue learning by reading the provided article on coding myths." },
+  { score: 1, text: "You've encountered some coding myths. Time to debunk them with more knowledge! Continue learning by reading the provided article on coding myths." },
+  { score: 2, text: "Not bad! You've got a good grasp of coding myths, but there's always more to explore. Continue learning by reading the provided article on coding myths." },
+  { score: 3, text: "Not bad! You've got a good grasp of coding myths, but there's always more to explore. Continue learning by reading the provided article on coding myths." },
+  { score: 4, text: "Well done! You're well-informed about coding myths. Keep up the good work and dive deeper into the subject by reading the provided article on coding myths." },
+  { score: 5, text: "Well done! You're well-informed about coding myths. Keep up the good work and dive deeper into the subject by reading the provided article on coding myths." },
+  { score: 6, text: "Bravo! You're a coding myth buster! Keep up the good work and continue learning by reading the provided article on coding myths." },
+  { score: 7, text: "Bravo! You're a coding myth buster! Keep up the good work and continue learning by reading the provided article on coding myths." },
 ];
 
 // This is the main state store for the quiz. It contains the variable "questions", an array empty for the answers, a default index of 0 for the "currentQuestionIndex" and a default state of false for the variable "quizOver"
