@@ -18,7 +18,7 @@ export const SummaryPage = () => {
 <div className="response-text">
       <p className="response-paragraph">{response.text}</p>
       <ButtonLink 
-        path="https://codeinstitute.net/se/blog/7-myths-about-coding/"
+        path="https://gtscholars.org/the-7-coding-myths-and-why-its-easier-than-you-think"
         ariaLabel="Redirect to blog post"
         label="Read article"
         className="article-btn"

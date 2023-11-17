@@ -15,7 +15,7 @@ export const Footer = () => {
           <FaGithub className="icon" />
         </a>
       </div> 
-      <p>The questions for this quiz come from <a className="article-link"href="https://codeinstitute.net/se/blog/7-myths-about-coding/">this</a> blog post on Code Institute</p>
+      <p>The questions for this quiz come from <a className="article-link" href="https://gtscholars.org/the-7-coding-myths-and-why-its-easier-than-you-think" target="_blank" rel="noreferrer noopener">this</a> blog post on GT Scholars Programme</p>
     </footer>
   );
 };

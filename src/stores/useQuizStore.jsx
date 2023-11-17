@@ -5,7 +5,7 @@ export const questions = [
   {
     id: 1,
     questionText:
-      '"You need to be a genius to code"',
+      '"Coding is suited for geniuses only"',
     options: [
       "True", "Myth"
     ],
@@ -16,7 +16,7 @@ export const questions = [
   {
     id: 2,
     questionText:
-      '"Coding is boring"',
+      '"Coding is boring and lacks creativity"',
     options: [
       "True", "Myth"
     ],
@@ -38,7 +38,7 @@ export const questions = [
   {
     id: 4,
     questionText:
-      '"You need to be good at math"',
+      '"To do coding you need to be a mathematics enthusiast"',
     options: [
       "True", "Myth"
     ],
@@ -49,24 +49,24 @@ export const questions = [
   {
     id: 5,
     questionText:
-      '"Once you master a language, you are done learning"',
+      '"Coding is a lonely activity"',
     options: [
       "True", "Myth"
     ],
     correctAnswerIndex: 1,
     answerType: "a myth", 
-    answerText: "Coding is continuously evolving, and you must keep learning and adapting to stay current with best practices."
+    answerText: "Coding is a highly collaborative experience where you come together to solve problems and create something unique. Many coding enthusiasts and professionals actively participate in coding communities and forums to connect, share ideas and learn from one another."
   },
   {
     id: 6,
     questionText:
-      '"One language is better than the rest"',
+      '"You need expensive equipment and software to start coding"',
     options: [
       "True", "Myth"
     ],
     correctAnswerIndex: 1,
     answerType: "a myth", 
-    answerText: "Each programming language has its purpose and strengths. The choice of language depends on the specific task and personal preference."
+    answerText: "To begin your coding journey all you need is a computer or a laptop and dedication to learning. Additionally, there are plenty of free coding platforms and software available online that you can use to start coding right away."
   },
   {
     id: 7,
@@ -83,7 +83,7 @@ export const questions = [
 ];
 
 export const responses = [
-  { score: 0, text: "You've encountered some coding myths. Time to debunk them with more knowledge! Continue learning by reading the provided article on coding myths." },
+  { score: 0, text: "You've encountered some coding myths. Time to debunk them with more knowledge! Continue learning by reading the provided article on coding myths."},
   { score: 1, text: "You've encountered some coding myths. Time to debunk them with more knowledge! Continue learning by reading the provided article on coding myths." },
   { score: 2, text: "Not bad! You've got a good grasp of coding myths, but there's always more to explore. Continue learning by reading the provided article on coding myths." },
   { score: 3, text: "Not bad! You've got a good grasp of coding myths, but there's always more to explore. Continue learning by reading the provided article on coding myths." },
