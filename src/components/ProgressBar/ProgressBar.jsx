@@ -1,5 +1,5 @@
 import { useQuizStore } from "../../stores/useQuizStore";
-import "./ProgressBar.css";
+import "./../CSS/progressBar.css";
 
 // Component that holds the progressbar
 export const ProgressBar = () => {
