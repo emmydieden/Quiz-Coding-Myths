@@ -22,7 +22,7 @@ export const questions = [
     ],
     correctAnswerIndex: 1,
     answerType: "a myth", 
-    answerText: "Coding is about creativity and building useful things. It can be applied to various industries, making it far from boring."
+    answerText: "Coding is about creativity and building useful things. It can be applied to various industries, making it far from boring. Learning to code can bring your great ideas to life and positively impact the world."
   },
   {
     id: 3,
